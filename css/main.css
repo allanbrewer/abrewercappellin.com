@@ -1,0 +1,283 @@
+/**************************************** 
+GENERAL
+****************************************/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+h4 {
+	margin: 0 0 1em 0;
+}
+
+
+
+/**************************************** 
+HEADING
+****************************************/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: bold;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+
+
+/**************************************** 
+NAVIGATION
+****************************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+
+
+/**************************************** 
+FOOTER
+****************************************/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #B0B0B0;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+
+
+/**************************************** 
+PAGE: RESUME
+****************************************/
+
+	/**************************************** 
+	CONTENT
+	****************************************/
+
+	#content ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  #content h4 {
+		font-size: 1.25em;
+    text-align: center;
+	}
+
+  #content ul li {
+    list-style: none;
+  }
+
+	/**************************************** 
+	RESUME
+	****************************************/
+
+	#ucab img, #colimmas img, #ciap img, #brecancar img, #vepica img {
+    max-width: 100px;
+    margin-top: 10px;
+  }
+
+  #resume ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	#resume ul li {
+		list-style: none;	
+	}
+
+	#resume ul li p {
+		margin: 0;
+		padding: 0;
+	}
+
+  #resume ul li ul li {
+    margin: 10px 0 ;
+  }  
+
+	#resume ul li ul li ul li {
+		list-style: disc;
+		margin: 0 0 0 7.5%;
+		padding: 0;
+	}
+
+	#education,#coursework,#experience,#skills,#activities,#other {
+		border-bottom: 3px solid #B0B0B0;
+	}
+
+
+
+/**************************************** 
+PAGE: ABOUT
+****************************************/
+
+.profile-photo {
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 10%
+}
+
+
+
+/**************************************** 
+PAGE: CONTACT
+****************************************/
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+	background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+	background-image: url('../img/twitter.png');
+}
+
+
+/**************************************** 
+COLOR
+****************************************/
+
+/* Site body style */
+body {
+	background-color: #fff;
+	color: #999;
+}
+
+/* Header */
+header {
+	background-color: #5085C8;
+	border-color: #B0B0B0;
+}
+
+/* Logo Text */
+header a h1,header a h2 {
+	color: #fff;
+}
+
+/* Link Color */
+a {
+	color: #5085C8;
+}
+
+/* Grey Header on mobile */
+nav {
+	background-color: #B0B0B0;
+}
+
+/* nav link */
+nav a, nav a:visited {
+	color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+	color: #2E5486;
+}
+
+/* Content color */
+#content ul li a {
+  color: #5085C8;
+}
+
+/* Content hover color */
+#content a:hover {
+	color: #666;
+}
+
+/* Resume Header Color */
+#education,#coursework,#experience,#skills,#activities,#other {
+	color: #2E5486;
+}
+
+/* Resume Bold Color */
+#resume p strong, #resume p em {
+  color: #808080;
+}
+
+
+
+
+
+
+
+
