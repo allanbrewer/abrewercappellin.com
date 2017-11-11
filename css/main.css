@@ -44,7 +44,7 @@ header {
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
-	margin: 15px 0;
+	margin: 20px 0;
 	font-size: 1.75em;
 	font-weight: bold;
 	line-height: 0.8em;
@@ -132,7 +132,7 @@ PAGE: RESUME
 	RESUME
 	****************************************/
 
-	#ucab img, #colimmas img, #ciap img, #brecancar img, #vepica img, #elemetrica img, #coursera img {
+	#iesa img, #ucab img, #colimmas img, #ciap img, #brecancar img, #vepica img, #elemetrica img, #coursera img {
     max-width: 100px;
     margin-top: 10px;
   }
@@ -273,11 +273,3 @@ nav a.selected, nav a:hover {
 #resume p strong, #resume p em {
   color: #808080;
 }
-
-
-
-
-
-
-
-
